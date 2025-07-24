@@ -1,5 +1,5 @@
 
-![Diagrama de ambientes](./imagens/diagrama_01.png)
+![Diagrama de ambientes](../imagens/diagrama_01.png)
 
 # 🧭 Linha do Tempo das Linguagens de Programação
 
