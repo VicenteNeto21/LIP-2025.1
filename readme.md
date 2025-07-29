@@ -1,4 +1,4 @@
-# 🧠 Trabalho de Fundamentos de Linguagens de Programação – UFC Crateús
+# Trabalho de Fundamentos de Linguagens de Programação – UFC Crateús
 
 ## Objetivo
 Aplicar na prática os conceitos aprendidos na disciplina, baseado no livro *Conceitos de Linguagens de Programação* de **Robert W. Sebesta**, explorando 14 tópicos fundamentais através de diferentes paradigmas e linguagens.
@@ -7,7 +7,7 @@ Aplicar na prática os conceitos aprendidos na disciplina, baseado no livro *Con
 
 No repositório podemos encontrar um diagramas mostrando a evolução das linguagens de programação, além também a comparação entre as liaguagens. Ai temos um apresentação e analise de uma linguagem de programação que foi `Rust`, onde é apresentado uma critica a linguagem.
 
-## 📚 Estrutura do Projeto
+## Estrutura do Projeto
 
 O projeto segue a seguinte estrutura:
 
@@ -37,9 +37,4 @@ O projeto segue a seguinte estrutura:
 - Prolog
 
 ### Ferramentas
-  - Canva">
-  - Draw.io">
-  - Lucidchart
-
-
----
+  - Canva
