@@ -25,3 +25,4 @@ print(f"Depois da função (referência): {b}")
 ```
 ## Fluxograma:
 
+![Diagrama de ambientes](./recursivo.png)

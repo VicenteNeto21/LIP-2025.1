@@ -1,5 +1,7 @@
 # Simulador de Conta Bancária
 
+Neste exercicio crie um simulador simples de conta bancaria onde mostrar na pratica a uso das estruturas de decisão e repetição 
+
 ``` python
 saldo = 1000.0  # Saldo inicial
 

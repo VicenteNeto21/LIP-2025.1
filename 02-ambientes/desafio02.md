@@ -94,4 +94,4 @@ Ela executa um **bytecode** que é mais portátil que código de máquina.
 
 ## Diagrama
 
-![Diagrama de ambientes](../imagens/diagrama_02.png)
+![Diagrama de ambientes](./diagrama_02.png)

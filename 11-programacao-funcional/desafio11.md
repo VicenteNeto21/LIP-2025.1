@@ -21,11 +21,9 @@ Queremos pegar uma lista de inteiros, filtrar apenas os números pares, elevar c
 from functools import reduce
 
 def soma_pares_ao_quadrado(lista):
-    # Filtra apenas os números pares
+
     pares = filter(lambda x: x % 2 == 0, lista)
-    # Eleva ao quadrado cada número par
     ao_quadrado = map(lambda x: x ** 2, pares)
-    # Soma todos os valores
     return reduce(lambda acc, x: acc + x, ao_quadrado, 0)
 
 # Exemplo de uso
