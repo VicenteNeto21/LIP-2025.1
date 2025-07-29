@@ -18,17 +18,18 @@ Rust é uma linguagem de programação moderna criada pela Mozilla no ano de **2
 
 ## Análise Crítica
 
-### Pontos Fortes
+**Pontos Fortes**
 
-- Tem alta confiabilidade
-- Comunidade engajada
-- Tem uma documentação completa
+- **Alta confiabilidade e segurança**: O sistema de posse (*ownership*), *lifetimes* e *borrowing* do Rust previne uma ampla gama de erros em tempo de compilação, como uso após liberação e concorrência insegura, eliminando a necessidade de *garbage collector*.
+- **Desempenho comparável ao C/C++**: Rust permite controle fino sobre o uso de recursos, tornando-o ideal para aplicações de baixo nível com requisitos rigorosos de performance.
+- **Ecossistema moderno e produtivo**: Ferramentas como o `Cargo` (gerenciador de pacotes e builds) e `Rustfmt` (formatação automática) facilitam o desenvolvimento e manutenção do código.
+- **Documentação rica e comunidade ativa**: A linguagem é bem documentada, e a comunidade oferece suporte rápido e constante, o que reduz a frustração ao aprender e implementar soluções.
 
-### Desafios
+**Desafios**
 
-- Curva de aprendizado é dificil
-- Adoção corporativa ainda limitada, pois é uma linguagem nova no mercado.
-- Tempo de compilação elevado em grandes projetos.
+- **Curva de aprendizado acentuada**: A proposta de segurança do Rust exige que o desenvolvedor compreenda conceitos complexos como *ownership*, *lifetimes* e *borrowing*, o que pode ser intimidador para iniciantes ou mesmo para programadores experientes vindos de linguagens mais permissivas.
+- **Tempo de compilação elevado**: Projetos maiores podem sofrer com tempos de compilação mais longos, especialmente devido à análise estática rigorosa do compilador.
+- **Adoção empresarial gradual**: Apesar do crescimento constante, a presença de Rust em ambientes corporativos ainda é menor em comparação com linguagens consolidadas como Java, C# e Python. Isso impacta a oferta de bibliotecas maduras em alguns domínios e a contratação de desenvolvedores experientes.
 
 ## Conclusão
 
