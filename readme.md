@@ -28,7 +28,7 @@ O projeto segue a seguinte estrutura:
 | [`13-scripts-web`](/13-scripts-web) | Scripting Web | Automação/manipulação de dados |
 | [`14-tendencias`](/14-tendencias) | Tendências | Análise de linguagem emergente |
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Linguagens
 - Java
