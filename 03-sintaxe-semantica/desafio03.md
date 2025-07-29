@@ -46,11 +46,11 @@ Linguagem fictícia baseada em comandos de transformação e ação mágica insp
 
 ## Análise Léxica + Sintática (Exemplo)
 
-```bnf
+~~~bnf
 @Sakura:^TRANSFORM:#MagicalGirl:"Yatta!"!
 @Naruto:^ATTACK:"Rasengan!"!
 @Yugi:^SUMMON:"Dark Magician, apareça!"!
-```
+~~~
 ---
 
 ## Codigo:

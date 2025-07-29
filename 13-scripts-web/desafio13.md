@@ -7,27 +7,22 @@
 
 # Código
 
-```python
-
+~~~python
 import os
 import shutil
 from datetime import datetime
 
-# Caminhos das pastas
 origem = 'fichas_pets'
 destino_base = 'backup_fichas'
 
-# Verifica se a pasta de origem existe
 if not os.path.exists(origem):
     print(f"A pasta '{origem}' não foi encontrada. Verifique o caminho.")
     exit()
 
-# Cria a pasta de backup com a data atual (YYYY-MM-DD)
 data_hoje = datetime.now().strftime('%Y-%m-%d')
 destino = os.path.join(destino_base, data_hoje)
 os.makedirs(destino, exist_ok=True)
 
-# Copia os arquivos da pasta de origem para o destino
 total = 0
 for arquivo in os.listdir(origem):
     caminho_origem = os.path.join(origem, arquivo)
@@ -40,5 +35,25 @@ for arquivo in os.listdir(origem):
 
 print(f"\nBackup concluído com sucesso. Total de fichas copiadas: {total}")
 print(f"Backup salvo em: {destino}")
+~~~
 
+# Sobre script
+
+- `os` e `shutil` são usado para realizar a manipulação de arquivos e diretórios.
+- O script faz uma verificação para ver se pasta `fichas_pets` existe no sistema.
+- Depois ele faz o backup em pasta `backup_fichas/`
+- Copia todos os arquivos da pasta de origem para a nova pasta de backup.
+
+# Estrutura da pasta
+```
+fichas_pets/
+├── rex.txt
+├── luna.txt
+├── bob.txt
+
+backup_fichas/
+└── 2025-07-23/
+    ├── rex.txt
+    ├── luna.txt
+    ├── bob.txt
 ```

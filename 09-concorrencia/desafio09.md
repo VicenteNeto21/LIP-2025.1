@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
 ## Usando `multiprocessing` (isolamento de memória)
 
-```python
+~~~python
 import multiprocessing
 import time
 
@@ -77,7 +77,7 @@ if __name__ == "__main__":
     p2.join()
 
     print("Finalizado com processos.")
-```
+~~~
 
 ## Saída Esperada (aproximada)
 ```python
